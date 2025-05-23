@@ -1,9 +1,16 @@
 div {
-    display:flex;
+    display: flex;
     flex-direction: column;
+    flex-wrap: wrap nowrap;
+    background-color: blueviolet;
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+    justify-content: space-around;
+    align-items: center;
 }
 
 img {
-    witdh: 100px;
+    width: 100px;
     height: 80px;
 }
